@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 main{
     background-color: #f8f7ff;
 }
@@ -11,9 +12,22 @@ main{
 }
 #tech{
     height: 100vh;
+   
 }
 #projects{
-    height: 100vh;
+    height: 1000vh;
+}
+#bg-fill{
+    height: 120vh;
+    background-image: url(bg/wave-haikei\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bg-unfill{
+    height: 120vh;
+    background-image: url(bg/unfill.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #current{
     height: 100vh;
@@ -22,10 +36,7 @@ main{
     height: 100vh;
 }
 .text{
-    opacity: 0;
-}
-.stack:hover .text{
-    opacity: 1;
+    margin-bottom: 0.5rem;
 }
 .container{
     width:250px;
@@ -51,3 +62,13 @@ main{
       transform:rotate(360deg);
     }
   }
+.heading{
+    font-size: xx-large;
+}
+
+.empty{
+    opacity: 0;
+}
+.pl-5{
+    font-size: 1.25rem;
+}
