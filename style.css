@@ -1,40 +1,49 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 main{
     background-color: #f8f7ff;
+    width: 100%;
 }
 
 #about{
-    height: 100vh;
+    height: 100%;
 }
 #tech{
-    height: 100vh;
+    height: 100%;
    
 }
 #projects{
-    height: 1000vh;
+    height: 100%;
 }
-#bg-fill{
-    height: 120vh;
+.bg-fill{
+    height: 100%;
     background-image: url(bg/wave-haikei\ \(2\).svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#bg-unfill{
-    height: 120vh;
+.bg-unfill{
+    height: 100%;
     background-image: url(bg/unfill.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-#current{
-    height: 100vh;
+.bg-unfill2{
+    height: 10%;
+    background-image: url(bg/unfill.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#connect{
-    height: 100vh;
+.end{
+    height: 50vh;
+    background-image: url(bg/layered-waves-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .text{
     margin-bottom: 0.5rem;
 }
@@ -70,5 +79,17 @@ main{
     opacity: 0;
 }
 .pl-5{
-    font-size: 1.25rem;
+    font-size:100%rem;
+}
+.blue{
+    color: #0077b6;
+    font-weight: 500;
+}
+
+.text{
+    opacity: 0;
+}
+
+.hide:hover .text{
+    opacity: 1;
 }
