@@ -37,12 +37,13 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.end{
-    height: 50vh;
+ */
+
+ .end{
     background-image: url(bg/layered-waves-haikei.svg);
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 
 .text{
     margin-bottom: 0.5rem;
