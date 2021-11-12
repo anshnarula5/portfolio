@@ -1,6 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    padding-top: 50px;
+}
+
+.about{
+    height: 100vh;
 }
 
 main{
@@ -19,6 +28,7 @@ main{
 #projects{
     height: 100%;
 }
+
 /* .bg-fill{
     height: 100%;
     background-image: url(bg/wave-haikei\ \(2\).svg);
@@ -46,9 +56,12 @@ main{
 }
 
 .text{
-    margin-bottom: 0.5rem;
+    margin-bottom:0.5rem;
 }
-.container{
+.texta{
+    margin-bottom:0.5rem;
+}
+/* .container{
     width:250px;
     height:250px;
     margin:20px auto 0 auto;
@@ -57,7 +70,7 @@ main{
     display:flex;
     align-items: center;
     justify-content: center;
-  }
+  } */
 
   .react-logo{
     animation-name:rotate;
@@ -83,8 +96,8 @@ main{
     font-size:100%rem;
 }
 .blue{
-    color: #0077b6;
-    font-weight: 500;
+    color: #023e8a;
+    font-weight: 900;
 }
 
 .text{
@@ -96,3 +109,12 @@ main{
 
 }
 
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+.navbar{
+    background-color: #0d47a1;
+}
